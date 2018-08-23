@@ -133,4 +133,7 @@ def adding_to_dennis
         }
      }
 
+programmer_hash[:alan_kay][:known_for]["Assembly"]
+ 
+ programmer_hash
 end
