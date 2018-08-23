@@ -132,7 +132,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-hash.each_pair { |key, value| hash[key] = value.to_a }
+#hash.each_pair { |key, value| hash[key] = value.to_a }
 programmer_hash[:dennis_ritchie][:known_for].each_pair {|key, value| programmer_hash[:dennis_ritchie][:known_for] = value.to_a} << "Assembly"
  
  programmer_hash
