@@ -133,7 +133,7 @@ def adding_to_dennis
         }
      }
 #hash.each_pair { |key, value| hash[key] = value.to_a }
-programmer_hash[:dennis_ritchie][:known_for].each_pair {|key, value| programmer_hash[:dennis_ritchie][:known_for] = value.to_a} << "Assembly"
+programmer_hash[:dennis_ritchie][:languages] << "Assembly"
  
  programmer_hash
 end
